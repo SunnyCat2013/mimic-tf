@@ -1,4 +1,5 @@
-import tensorflow as tf
+#import tensorflow as tf
+import mimic_tf as tf
 
 '''
 implement
@@ -17,4 +18,4 @@ out = tf.div(mul, ad)
 
 
 with tf.Session() as sess:
-    print(sess.run(out))
+    print('session out:', sess.run(out))
